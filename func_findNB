@@ -10,7 +10,10 @@ def findNB(m):
     suma+=i**3
   # Si el residuo del valor obtenido y m es cero se da el valor n
   if suma%m==0:
-    return(i)
+    return(int(i))
   # En caso contrario
   else:
     return(-1)
+
+print(findNb(1071225))
+print(findNb(91716553919377))
