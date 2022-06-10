@@ -1,0 +1,10 @@
+m=9
+suma=0
+i=0
+while suma<m:
+  i+=1
+  suma+=i**3
+if suma%m==0:
+  print(i)
+else:
+  print(-1)
