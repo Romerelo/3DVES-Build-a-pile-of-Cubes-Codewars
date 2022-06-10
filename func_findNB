@@ -15,5 +15,5 @@ def findNB(m):
   else:
     return(-1)
 
-print(findNb(1071225))
-print(findNb(91716553919377))
+print(findNB(1071225))
+print(findNB(91716553919377))
