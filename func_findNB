@@ -2,7 +2,7 @@ def findNB(m):
   #Inicializa el volumen del cubo en cero
   # se cuenta desde el tope hacia abajo
   suma=0
-  # Contador que halla n menor o igual al buscado
+  # Contador que halla n mayor o igual al buscado
   i=0
   # Se recorre hasta obtener un valor mayor o igual
   while suma<m:
