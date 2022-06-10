@@ -1,10 +1,16 @@
-m=9
-suma=0
-i=0
-while suma<m:
-  i+=1
-  suma+=i**3
-if suma%m==0:
-  print(i)
-else:
-  print(-1)
+def findNB(m):
+  #Inicializa el volumen del cubo en cero
+  # se cuenta desde el tope hacia abajo
+  suma=0
+  # Contador que halla n menor o igual al buscado
+  i=0
+  # Se recorre hasta obtener un valor mayor o igual
+  while suma<m:
+    i+=1
+    suma+=i**3
+  # Si el residuo del valor obtenido y m es cero se da el valor n
+  if suma%m==0:
+    return(i)
+  # En caso contrario
+  else:
+    return(-1)
